@@ -66,3 +66,19 @@ h1 em,h2 em{font-weight:500;color:#d38eaa}
 footer{margin-top:auto;padding-top:20px}
 @media(max-width:600px){.app{padding:20px 16px 14px}.intro{min-height:calc(100svh - 75px)}.gift-button{transform:scale(.9);margin:5px 0}.universe{padding-top:42px}.space-scene{width:112%;max-width:560px;margin:8px 0 0;aspect-ratio:1.1}.planet{width:39px;height:39px;font-size:17px}.planet small{font-size:7px}.planet-center{width:62px;height:62px}.planet-center span{font-size:23px}.universe-heading>p:last-child{max-width:300px;margin:12px auto 0}.message-card{padding:23px 20px 18px}.final-modal{padding:32px 20px 24px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+/* Dark romantic background */
+html,
+body,
+#root {
+  background: #17151d !important;
+}
+
+body {
+  background:
+    radial-gradient(
+      ellipse at top,
+      rgba(91, 56, 120, 0.18),
+      transparent 65%
+    ),
+    #17151d !important;
+}
